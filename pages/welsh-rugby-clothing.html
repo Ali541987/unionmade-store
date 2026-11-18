@@ -1,0 +1,934 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welsh Rugby T-Shirts &amp; Clothing | Cymru Pride | unionmade.store</title>
+  <meta name="description" content="Shop wales rugby tee shirts, sweatshirts &amp; hoodies. Authentic Cymru designs, UK-printed, delivered in 2-4 days. Free UK shipping over £30. Sizes XS–5XL.">
+  <link rel="canonical" href="https://unionmade.store/collections/welsh-rugby-clothing/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Welsh Rugby T-Shirts &amp; Clothing | unionmade.store">
+  <meta property="og:description" content="Cymru am byth — shop Wales rugby tee shirts, sweatshirts and hoodies. UK-printed, fast delivery.">
+  <meta property="og:url" content="https://unionmade.store/collections/welsh-rugby-clothing/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://unionmade.store/assets/og-welsh-rugby.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- JSON-LD: CollectionPage + FAQPage -->
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Welsh Rugby T-Shirts & Clothing",
+      "description": "Shop Welsh rugby t-shirts, sweatshirts and hoodies. Cymru pride, UK-printed, fast delivery.",
+      "url": "https://unionmade.store/collections/welsh-rugby-clothing/",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://unionmade.store/"},
+          {"@type": "ListItem", "position": 2, "name": "Collections", "item": "https://unionmade.store/collections/"},
+          {"@type": "ListItem", "position": 3, "name": "Welsh Rugby Clothing"}
+        ]
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does 'Cymru am byth' mean on Welsh rugby shirts?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Cymru am byth means 'Wales forever' in Welsh. It's the rallying cry of Welsh rugby fans — a declaration of unshakeable national pride worn by supporters across the world."}
+        },
+        {
+          "@type": "Question",
+          "name": "Where are your Welsh rugby t-shirts printed?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Every garment is printed in the UK by our partner Prodigi, based in London. We never ship from overseas warehouses — your order is made and dispatched domestically for the fastest possible delivery."}
+        },
+        {
+          "@type": "Question",
+          "name": "What sizes do your Welsh rugby sweatshirts come in?",
+          "acceptedAnswer": {"@type": "Answer", "text": "All our Welsh rugby sweatshirts and t-shirts are available in XS through to 5XL. Full size guides with chest measurements are shown on every product page."}
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly will my Welsh rugby clothing order arrive?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Orders are printed and dispatched within 1-2 business days. Standard UK delivery takes a further 1-2 days, so most customers receive their order within 2-4 days of placing it."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can I return my Welsh rugby clothing if it doesn't fit?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes — we offer free returns within 30 days if you're not happy with the fit or quality. Simply contact us and we'll arrange a prepaid return label."}
+        },
+        {
+          "@type": "Question",
+          "name": "Do you sell women's Welsh rugby tops?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Absolutely. Our Wales Rugby Women's Tee is cut to a fitted women's silhouette and is available in XS–3XL. We also offer unisex sweatshirts and hoodies that many women prefer for a relaxed fit."}
+        }
+      ]
+    }
+  ]
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0F172A;
+      --bg2: #1E293B;
+      --bg3: #334155;
+      --red: #DC2626;
+      --red-hover: #B91C1C;
+      --green: #16A34A;
+      --white: #F8FAFC;
+      --muted: #94A3B8;
+      --border: #2D3F55;
+      --card-bg: #1E293B;
+      --radius: 10px;
+      --shadow: 0 2px 12px rgba(0,0,0,0.35);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--white);
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: #0A1120;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+    }
+
+    .logo {
+      font-size: 1.25rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: var(--white);
+    }
+    .logo span { color: var(--red); }
+
+    nav { display: flex; gap: 28px; align-items: center; }
+    nav a { color: var(--muted); font-size: 0.9rem; font-weight: 500; transition: color .2s; }
+    nav a:hover { color: var(--white); }
+
+    .hamburger { display: none; background: none; border: none; cursor: pointer; color: var(--white); font-size: 1.5rem; }
+
+    @media (max-width: 640px) {
+      nav { display: none; }
+      .hamburger { display: block; }
+    }
+
+    /* ── BREADCRUMB ── */
+    .breadcrumb {
+      padding: 14px 0 0;
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .breadcrumb a:hover { color: var(--white); }
+    .breadcrumb-sep { opacity: .5; }
+
+    /* ── HERO ── */
+    .hero {
+      padding: 24px 0 32px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero h1 {
+      font-size: clamp(1.6rem, 4vw, 2.5rem);
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+    .hero h1 span { color: var(--red); }
+
+    .hero-sub {
+      color: var(--muted);
+      font-size: 1rem;
+      max-width: 600px;
+      margin-bottom: 20px;
+    }
+
+    .hero-badges { display: flex; gap: 10px; flex-wrap: wrap; }
+    .badge {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 0.78rem;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+    .badge.green { border-color: var(--green); color: #4ADE80; }
+    .badge.red   { border-color: var(--red);   color: #FCA5A5; }
+
+    /* ── FILTER BAR ── */
+    .filter-bar {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      padding: 20px 0;
+      flex-wrap: wrap;
+    }
+    .filter-label { font-size: 0.85rem; color: var(--muted); white-space: nowrap; }
+    .filter-bar select {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      color: var(--white);
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+
+    .filter-pills { display: flex; gap: 8px; flex-wrap: wrap; margin-left: auto; }
+    .pill {
+      padding: 6px 16px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      font-size: 0.82rem;
+      cursor: pointer;
+      background: transparent;
+      color: var(--muted);
+      transition: all .2s;
+    }
+    .pill.active, .pill:hover {
+      background: var(--red);
+      border-color: var(--red);
+      color: var(--white);
+    }
+
+    /* ── PRODUCT GRID ── */
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding-bottom: 48px;
+    }
+
+    @media (max-width: 768px) { .product-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; } }
+    @media (max-width: 420px) { .product-grid { grid-template-columns: 1fr; } }
+
+    .product-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: transform .2s, box-shadow .2s;
+      cursor: pointer;
+    }
+    .product-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(220,38,38,0.15);
+      border-color: var(--red);
+    }
+
+    .product-img {
+      aspect-ratio: 1;
+      background: #263450;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .product-img::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(220,38,38,.08), rgba(22,163,74,.06));
+    }
+
+    .stock-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(22,163,74,.85);
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 4px;
+      z-index: 2;
+    }
+
+    .product-info { padding: 14px; }
+    .product-name {
+      font-size: 0.9rem;
+      font-weight: 600;
+      line-height: 1.3;
+      margin-bottom: 6px;
+      color: var(--white);
+    }
+    .product-price {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 10px;
+    }
+    .product-price .old { text-decoration: line-through; color: var(--muted); font-size: 0.85rem; font-weight: 400; margin-left: 6px; }
+
+    .btn-cart {
+      width: 100%;
+      background: var(--red);
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      padding: 10px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .2s;
+    }
+    .btn-cart:hover { background: var(--red-hover); }
+
+    /* ── TRUST BAR ── */
+    .trust-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin: 0 0 48px;
+    }
+    @media (max-width: 600px) { .trust-bar { grid-template-columns: repeat(2, 1fr); } }
+
+    .trust-item {
+      background: var(--bg2);
+      padding: 20px 16px;
+      text-align: center;
+    }
+    .trust-icon { font-size: 1.8rem; margin-bottom: 6px; }
+    .trust-title { font-size: 0.85rem; font-weight: 700; margin-bottom: 2px; }
+    .trust-sub { font-size: 0.75rem; color: var(--muted); }
+
+    /* ── SEO CONTENT ── */
+    .seo-content {
+      max-width: 800px;
+      margin: 0 auto 56px;
+      padding: 0 0 48px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .seo-content h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: 36px 0 14px;
+      color: var(--white);
+    }
+    .seo-content h2:first-child { margin-top: 0; }
+
+    .seo-content h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 24px 0 10px;
+      color: #CBD5E1;
+    }
+
+    .seo-content p {
+      color: #CBD5E1;
+      margin-bottom: 14px;
+      line-height: 1.75;
+    }
+
+    .seo-content ul {
+      list-style: none;
+      margin: 0 0 16px;
+      padding: 0;
+    }
+    .seo-content ul li {
+      color: #CBD5E1;
+      padding: 4px 0 4px 20px;
+      position: relative;
+    }
+    .seo-content ul li::before {
+      content: '▸';
+      position: absolute;
+      left: 0;
+      color: var(--red);
+    }
+
+    /* ── TESTIMONIALS ── */
+    .testimonials-section { margin-bottom: 56px; }
+
+    .testimonials-section h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    @media (max-width: 700px) { .testimonials-grid { grid-template-columns: 1fr; } }
+
+    .testimonial {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px;
+    }
+    .stars { color: #FBBF24; font-size: 0.9rem; margin-bottom: 10px; }
+    .testimonial-text { font-size: 0.9rem; color: #CBD5E1; line-height: 1.6; margin-bottom: 14px; font-style: italic; }
+    .testimonial-author { display: flex; align-items: center; gap: 10px; }
+    .avatar {
+      width: 36px; height: 36px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--red), #7F1D1D);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.75rem; font-weight: 700; color: #fff; flex-shrink: 0;
+    }
+    .author-name { font-size: 0.85rem; font-weight: 600; }
+    .author-loc { font-size: 0.75rem; color: var(--muted); }
+
+    /* ── FAQ ── */
+    .faq-section { margin-bottom: 56px; }
+    .faq-section h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .faq-item {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+    .faq-q {
+      width: 100%;
+      background: var(--bg2);
+      border: none;
+      color: var(--white);
+      text-align: left;
+      padding: 16px 20px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      transition: background .2s;
+    }
+    .faq-q:hover { background: var(--bg3); }
+    .faq-q .arrow { font-size: 1rem; color: var(--red); flex-shrink: 0; transition: transform .2s; }
+    .faq-q[aria-expanded="true"] .arrow { transform: rotate(180deg); }
+
+    .faq-a {
+      display: none;
+      padding: 0 20px 16px;
+      background: var(--bg2);
+      color: #CBD5E1;
+      font-size: 0.9rem;
+      line-height: 1.65;
+    }
+    .faq-a.open { display: block; }
+
+    /* ── RELATED COLLECTIONS ── */
+    .related-section { margin-bottom: 56px; }
+    .related-section h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .related-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    @media (max-width: 600px) { .related-grid { grid-template-columns: 1fr; } }
+
+    .related-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      text-align: center;
+      transition: border-color .2s, transform .2s;
+      display: block;
+    }
+    .related-card:hover {
+      border-color: var(--red);
+      transform: translateY(-2px);
+    }
+    .related-emoji { font-size: 2.5rem; margin-bottom: 10px; }
+    .related-name { font-weight: 700; margin-bottom: 6px; }
+    .related-sub { font-size: 0.82rem; color: var(--muted); }
+
+    /* ── FOOTER ── */
+    footer {
+      background: #080F1C;
+      border-top: 1px solid var(--border);
+      padding: 28px 0;
+    }
+    .footer-inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+      text-align: center;
+    }
+    .footer-links { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+    .footer-links a { font-size: 0.82rem; color: var(--muted); transition: color .2s; }
+    .footer-links a:hover { color: var(--white); }
+    .footer-copy { font-size: 0.78rem; color: #475569; }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="container header-inner">
+    <a href="/" class="logo">union<span>made</span>.store</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/collections/">Collections</a>
+      <a href="/blogs/news/">Blog</a>
+    </nav>
+    <button class="hamburger" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <!-- BREADCRUMB -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span class="breadcrumb-sep">›</span>
+      <a href="/collections/">Collections</a>
+      <span class="breadcrumb-sep">›</span>
+      <span>Welsh Rugby Clothing</span>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Welsh Rugby T-Shirts &amp; <span>Sweatshirts</span></h1>
+      <p class="hero-sub">Cymru am byth — official-style Welsh rugby fan clothing. Printed in the UK, delivered in 2-4 days.</p>
+      <div class="hero-badges">
+        <span class="badge green">🏴󠁧󠁢󠁷󠁬󠁳󠁿 Authentic Welsh Designs</span>
+        <span class="badge">📦 Free UK Shipping Over £30</span>
+        <span class="badge red">🔥 Fast 2-4 Day Delivery</span>
+        <span class="badge">✅ Sizes XS–5XL</span>
+      </div>
+    </section>
+
+    <!-- FILTER BAR -->
+    <div class="filter-bar">
+      <span class="filter-label">Sort by:</span>
+      <select aria-label="Sort products">
+        <option>Featured</option>
+        <option>Best Selling</option>
+        <option>Price: Low to High</option>
+        <option>Price: High to Low</option>
+      </select>
+      <div class="filter-pills">
+        <button class="pill active">All</button>
+        <button class="pill">T-Shirts</button>
+        <button class="pill">Sweatshirts</button>
+        <button class="pill">Hoodies</button>
+      </div>
+    </div>
+
+    <!-- PRODUCT GRID -->
+    <section aria-label="Welsh rugby clothing products">
+      <div class="product-grid">
+
+        <!-- Product 1 -->
+        <article class="product-card">
+          <div class="product-img">
+            <span class="stock-badge">In Stock</span>
+            🏴󠁧󠁢󠁷󠁬󠁳󠁿
+          </div>
+          <div class="product-info">
+            <p class="product-name">Cymru Am Byth Wales Rugby Tee</p>
+            <p class="product-price">£24.99</p>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- Product 2 -->
+        <article class="product-card">
+          <div class="product-img">
+            <span class="stock-badge">In Stock</span>
+            🐉
+          </div>
+          <div class="product-info">
+            <p class="product-name">Welsh Dragon Rugby Sweatshirt</p>
+            <p class="product-price">£34.99</p>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- Product 3 -->
+        <article class="product-card">
+          <div class="product-img">
+            <span class="stock-badge">In Stock</span>
+            🏴󠁧󠁢󠁷󠁬󠁳󠁿
+          </div>
+          <div class="product-info">
+            <p class="product-name">Wales Rugby Fan Hoodie</p>
+            <p class="product-price">£44.99</p>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- Product 4 -->
+        <article class="product-card">
+          <div class="product-img">
+            <span class="stock-badge">In Stock</span>
+            🏉
+          </div>
+          <div class="product-info">
+            <p class="product-name">Carry Cymru On Welsh Rugby Tee</p>
+            <p class="product-price">£24.99</p>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- Product 5 -->
+        <article class="product-card">
+          <div class="product-img">
+            <span class="stock-badge">In Stock</span>
+            🎵
+          </div>
+          <div class="product-info">
+            <p class="product-name">Land of My Fathers Rugby Sweatshirt</p>
+            <p class="product-price">£34.99</p>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- Product 6 -->
+        <article class="product-card">
+          <div class="product-img">
+            <span class="stock-badge">In Stock</span>
+            🐉
+          </div>
+          <div class="product-info">
+            <p class="product-name">Welsh Rugby Crest Tee</p>
+            <p class="product-price">£24.99</p>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- Product 7 -->
+        <article class="product-card">
+          <div class="product-img">
+            <span class="stock-badge">In Stock</span>
+            🏴󠁧󠁢󠁷󠁬󠁳󠁿
+          </div>
+          <div class="product-info">
+            <p class="product-name">Cymru Rugby Training Sweatshirt</p>
+            <p class="product-price">£34.99</p>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <!-- Product 8 -->
+        <article class="product-card">
+          <div class="product-img">
+            <span class="stock-badge">In Stock</span>
+            🏉
+          </div>
+          <div class="product-info">
+            <p class="product-name">Wales Rugby Women's Tee</p>
+            <p class="product-price">£24.99</p>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- TRUST BAR -->
+    <div class="trust-bar" aria-label="Trust signals">
+      <div class="trust-item">
+        <div class="trust-icon">🇬🇧</div>
+        <div class="trust-title">UK Printed</div>
+        <div class="trust-sub">London-based production</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">↩️</div>
+        <div class="trust-title">Free Returns</div>
+        <div class="trust-sub">30-day no-fuss policy</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">🚚</div>
+        <div class="trust-title">Fast Delivery</div>
+        <div class="trust-sub">2-4 days across the UK</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">📏</div>
+        <div class="trust-title">Sizes XS–5XL</div>
+        <div class="trust-sub">Every body, every fan</div>
+      </div>
+    </div>
+
+    <!-- SEO CONTENT -->
+    <section class="seo-content">
+
+      <h2>Welsh Rugby Clothing — Worn With Pride, Not Just on Match Day</h2>
+
+      <p>Rugby isn't just a sport in Wales — it's woven into the national identity. From the terraces of the Principality Stadium to living rooms in Llanelli and streets in Pontypool, the red shirt of the Welsh national side carries a meaning that goes far beyond the game. At unionmade.store, our <strong>wales rugby tee shirts</strong>, sweatshirts and hoodies are designed for people who carry that pride every day of the year — not just during the Six Nations.</p>
+
+      <p>Wales produces more passion per square mile than almost anywhere on Earth. The Reds — Y Dreigiau — have given us legends like Gareth Edwards, JPR Williams, Shane Williams and Alun Wyn Jones. Every time the Dragons run out to the anthem of <em>Hen Wlad Fy Nhadau</em>, it sends a shiver through 3 million people. Our <strong>cymru t shirt</strong> range lets you carry that feeling into everyday life.</p>
+
+      <h3>Welsh Rugby Fan Clothing for Every Season</h3>
+
+      <p>The Six Nations (February–March) is the peak of Welsh rugby fever, but the truth is Welsh fans never really switch off. Autumn Internationals, the United Rugby Championship season, and summer tours mean there's always a reason to wear your colours. Our <strong>welsh rugby sweatshirt</strong> range is built for year-round wear — heavy enough for November away days, light enough for a summer barbecue when you're watching a replay.</p>
+
+      <p>We carry the full range of Welsh fan clothing you need:</p>
+      <ul>
+        <li>Wales rugby tee shirts — crew neck, short sleeve, 180gsm cotton-rich fabric</li>
+        <li>Welsh rugby sweatshirts — mid-weight fleece, ideal for stadium and street</li>
+        <li>Wales rugby hoodies — full-zip and pullover, perfect for travel days</li>
+        <li>Women's Wales rugby tops — fitted cut, XS–3XL</li>
+        <li>Cymru training sweatshirts — moisture-wicking, pre-match warm-up style</li>
+      </ul>
+
+      <h3>What Makes Our Welsh Rugby Clothing Different</h3>
+
+      <p>Most <strong>welsh clothing</strong> you find online is printed overseas and shipped from European warehouses, adding days to your delivery and cutting corners on print quality. We do it differently. Every <strong>wales rugby top</strong> in our collection is printed right here in the UK by our production partner in London. That means:</p>
+      <ul>
+        <li>Delivery in 2-4 working days to any UK address</li>
+        <li>Sharper prints that hold their colour wash after wash (safe at 40°C)</li>
+        <li>No customs delays, no overseas shipping surprises</li>
+        <li>Customer service you can actually reach</li>
+      </ul>
+
+      <p>Our designs are created by people who love Welsh rugby — not generic flag-print factories. The difference shows in the details: authentic Welsh phrases like <em>Cymru am byth</em> (Wales forever) and <em>Yma o Hyd</em> (Still Here), the red dragon rendered with care, and typography that respects the culture it represents.</p>
+
+      <h3>Cymru Am Byth — What It Means to Wear the Dragon</h3>
+
+      <p>When you wear a <strong>welsh shirt rugby</strong> fan top, you're not just following a team — you're asserting a national identity. <em>Cymru am byth</em> (pronounced Cum-ree am bith) is more than a slogan. It's the same defiant declaration that has echoed in Aberystwyth and Abertillery for generations. Our Cymru range brings that phrase to life in bold, clean designs that work on the terrace, the pub and the high street equally well.</p>
+
+      <h3>Sizing Guide — Get the Right Fit First Time</h3>
+
+      <p>All our garments come in sizes XS through to 5XL. T-shirts and fitted women's tops follow a standard UK sizing chart — if you're between sizes, we recommend sizing up for a more relaxed fit. Sweatshirts and hoodies have a generous cut that suits layering in colder months. Full chest and length measurements are listed on each individual product page.</p>
+
+      <p>Wash at 30–40°C, inside out, to preserve the print. Tumble dry on low or air dry for best results. Avoid ironing directly on the print.</p>
+
+      <h3>Free UK Shipping on Orders Over £30</h3>
+
+      <p>Order two <strong>wales rugby tee shirts</strong> and you've already qualified for free shipping. We dispatch within 1-2 business days and you'll receive a tracking link by email as soon as your order is on its way. Need it fast? Express delivery options are available at checkout.</p>
+
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials-section">
+      <h2>What Welsh Rugby Fans Are Saying</h2>
+      <div class="testimonials-grid">
+
+        <div class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Perfect quality and my mates all asked where I got it. Arrived in 3 days — will definitely order again before the Six Nations."</p>
+          <div class="testimonial-author">
+            <div class="avatar">RM</div>
+            <div>
+              <div class="author-name">Rhys M.</div>
+              <div class="author-loc">Cardiff</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Bought the Welsh Dragon sweatshirt for the Six Nations. Looks brilliant, runs true to size. Much better quality than the ones I've bought on Amazon."</p>
+          <div class="testimonial-author">
+            <div class="avatar">SW</div>
+            <div>
+              <div class="author-name">Sioned W.</div>
+              <div class="author-loc">Swansea</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Great design, fast delivery. The Cymru Am Byth tee is exactly what I was looking for — not over the top, just proper Welsh pride. Will order the hoodie next!"</p>
+          <div class="testimonial-author">
+            <div class="avatar">GP</div>
+            <div>
+              <div class="author-name">Gareth P.</div>
+              <div class="author-loc">Wrexham</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">
+          What does 'Cymru am byth' mean on Welsh rugby shirts?
+          <span class="arrow">▾</span>
+        </button>
+        <div class="faq-a">
+          <em>Cymru am byth</em> means "Wales forever" in Welsh — the rallying cry of Welsh rugby fans the world over. It's a declaration of unshakeable national pride and has been chanted on the terraces of Cardiff Arms Park and the Principality Stadium for generations.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">
+          Where are your Welsh rugby t-shirts printed?
+          <span class="arrow">▾</span>
+        </button>
+        <div class="faq-a">
+          Every garment is printed in the UK by our partner Prodigi, based in London. We never ship from overseas warehouses — your order is made and dispatched domestically for the fastest possible delivery and to ensure consistent print quality.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">
+          What sizes do your Welsh rugby sweatshirts come in?
+          <span class="arrow">▾</span>
+        </button>
+        <div class="faq-a">
+          All our Welsh rugby sweatshirts and t-shirts are available in XS through to 5XL. Full size guides with chest measurements in both inches and centimetres are shown on every individual product page so you can find your perfect fit.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">
+          How quickly will my order arrive?
+          <span class="arrow">▾</span>
+        </button>
+        <div class="faq-a">
+          Orders are printed and dispatched within 1-2 business days. Standard UK delivery takes a further 1-2 days, so most customers receive their order within 2-4 days of placing it. You'll receive a tracking link by email as soon as it's dispatched.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">
+          Can I return my Welsh rugby clothing if it doesn't fit?
+          <span class="arrow">▾</span>
+        </button>
+        <div class="faq-a">
+          Yes — we offer free returns within 30 days if you're not happy with the fit or quality. Simply contact us via our returns page and we'll arrange a prepaid return label. Exchanges for a different size are processed within 2 business days of receiving the returned item.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">
+          Do you sell women's Welsh rugby tops?
+          <span class="arrow">▾</span>
+        </button>
+        <div class="faq-a">
+          Absolutely. Our Wales Rugby Women's Tee is cut to a fitted women's silhouette and is available in XS–3XL. We also offer unisex sweatshirts and hoodies that many women prefer for a relaxed fit. Check our size guide on each product page for exact measurements.
+        </div>
+      </div>
+
+    </section>
+
+    <!-- RELATED COLLECTIONS -->
+    <section class="related-section">
+      <h2>Explore More British &amp; Celtic Clothing</h2>
+      <div class="related-grid">
+
+        <a href="/collections/wales-clothing/" class="related-card">
+          <div class="related-emoji">🐉</div>
+          <div class="related-name">Wales Clothing &amp; Gifts</div>
+          <div class="related-sub">Welsh dragon, Cymru designs &amp; more</div>
+        </a>
+
+        <a href="/collections/scotland-retro-clothing/" class="related-card">
+          <div class="related-emoji">🏴󠁧󠁢󠁳󠁣󠁴󠁿</div>
+          <div class="related-name">Scotland Retro Football Clothing</div>
+          <div class="related-sub">Vintage Tartan Army fan apparel</div>
+        </a>
+
+        <a href="/collections/union-jack-t-shirts/" class="related-card">
+          <div class="related-emoji">🇬🇧</div>
+          <div class="related-name">Union Jack T-Shirts</div>
+          <div class="related-sub">British flag clothing &amp; accessories</div>
+        </a>
+
+      </div>
+    </section>
+
+  </div><!-- /container -->
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container footer-inner">
+    <div class="footer-links">
+      <a href="/">Home</a>
+      <a href="/pages/about/">About</a>
+      <a href="/pages/shipping/">Shipping</a>
+      <a href="/pages/returns/">Returns</a>
+      <a href="/pages/privacy-policy/">Privacy Policy</a>
+    </div>
+    <p class="footer-copy">© 2026 unionmade.store — British &amp; Celtic pride, printed in the UK.</p>
+  </div>
+</footer>
+
+<script>
+  function toggleFaq(btn) {
+    var answer = btn.nextElementSibling;
+    var isOpen = answer.classList.contains('open');
+    // close all
+    document.querySelectorAll('.faq-a').forEach(function(a){ a.classList.remove('open'); });
+    document.querySelectorAll('.faq-q').forEach(function(b){ b.setAttribute('aria-expanded','false'); });
+    // open clicked if it was closed
+    if (!isOpen) {
+      answer.classList.add('open');
+      btn.setAttribute('aria-expanded','true');
+    }
+  }
+
+  // Filter pills
+  document.querySelectorAll('.pill').forEach(function(p){
+    p.addEventListener('click', function(){
+      document.querySelectorAll('.pill').forEach(function(x){ x.classList.remove('active'); });
+      p.classList.add('active');
+    });
+  });
+</script>
+
+</body>
+</html>
